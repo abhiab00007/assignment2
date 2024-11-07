@@ -1,5 +1,5 @@
 # **Assignment2**
--> creating new tables, columns and measures in PowerBI using DAX
+-> creating new tables, columns and measures in PowerBI using **DAX**
 
 ## 1. New tables
 
