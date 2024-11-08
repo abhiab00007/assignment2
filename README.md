@@ -15,7 +15,7 @@ the DAX expression is:
 
       sales table = SELECTCOLUMNS(Orders,"product id",Orders[Product ID],"sales",Orders[Sales],"profit",Orders[Profit],"profit percentage",(DIVIDE(Orders[Profit],Orders[Sales],0)*100))
    
-- Both the above mentiones functions are combined and used to create the third column "shipping summary table" where the individual columns from "orders" table are selected along with new mathematically created "total shipping cost" column from within the new table.
+- Both the above mentioned functions are combined and used to create the third column "shipping summary table" where the individual columns from "orders" table are selected along with new mathematically created "total shipping cost" column from within the new table.
 
 the DAX expression is:
 
