@@ -59,7 +59,7 @@ the DAX expression is:
     rounded profit margin = ROUND(DIVIDE(Orders[Profit],Orders[Sales],0),2)
 ## 3. New measure
 
-- A new measure "total discount" is created to the "updated orders table" to calculate the sum of products of sales with its corresponding discount percentge. the function "**sumx**" is used here.
+- A new measure "total discount" is created to the "updated orders table" to calculate the sum of products of sales with its corresponding discount percentage. the function "**sumx**" is used here.
 
 the DAX expression is:
 
@@ -70,3 +70,5 @@ the DAX expression is:
 the DAX expresson is:
 
     sales std_dev = STDEV.P(Orders[Sales])
+
+ the measures created are visualized in the model view with the use of cards.
