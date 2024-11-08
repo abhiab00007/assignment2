@@ -41,11 +41,12 @@ the DAX expression is:
 the DAX expression is:
 
     order_year = YEAR('Shipping summary table'[date of order])
+    
 
 
     order_year_quarter = QUARTER('Shipping summary table'[date of order])
 
-- A column for calculating the sales yet to date is created in "sales" table named "salesYTD" using "**totalytd**" function.
+- A column for calculating the sum of sales yet to date is created in "sales" table named "salesYTD" using "**totalytd**" function.
 
 the DAXexpression is:
 
